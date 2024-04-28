@@ -9,6 +9,7 @@ const modal = document.querySelector('.pop-up');
 const cross = document.querySelector('.pop-up__cross');
 const popUpStatus = document.querySelector('.pop-up__status');
 const popUpMsg = document.querySelector('.pop-up__message');
+const accordionItems = document.querySelectorAll('.accordion__item');
 
 const setTime = (dd: string, hh: string, mm: string, ss: string) => {
   // prettier-ignore
@@ -88,4 +89,19 @@ document.addEventListener('DOMContentLoaded', () => {
 (cross as HTMLAnchorElement).addEventListener('click', (e) => {
   e.preventDefault();
   (modal as HTMLDialogElement).close();
+});
+
+accordionItems.forEach((el) => {
+  el.addEventListener('click', (e) => {
+    accordionItems.forEach((item) => {
+      item.classList.remove('active');
+    });
+    (e.currentTarget as HTMLDivElement).classList.add('active');
+  });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+  setTimeout(() => {
+    document.body.setAttribute('pending', '');
+  }, 500);
 });
