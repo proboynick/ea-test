@@ -1,7 +1,7 @@
 # Egorov Agency Test
 
 1. ТЗ: [ссылка](https://docs.google.com/document/d/1GPItQp07Cr-F6g1vnNp1VtbWz4lOV8jXaER5zwFtaQs/edit)
-2. Deadline: 28.04.2024 18:00 (done: 28.04.2024 18:00)
+2. Deadline: 28.04.2024 18:00 (done: 28.04.2024 17:00)
 3. Ссылка на деплой: [lead-advisors](https://lead-advisors.netlify.app/)
 4. Выполненные пункты:  
   [x] адаптивный макет страницы;  
