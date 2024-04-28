@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Lead Advisors</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -46,7 +46,7 @@
               <path d="M187.187 53.5583C185.554 53.5583 184.301 52.6693 184.301 51.2291H185.732C185.792 51.8988 186.261 52.4381 187.187 52.4381C188.125 52.4381 188.653 51.9344 188.653 51.241C188.653 49.2734 184.325 50.5476 184.325 47.5488C184.325 46.1205 185.465 45.2315 187.128 45.2315C188.689 45.2315 189.793 46.0494 189.906 47.448H188.428C188.38 46.8969 187.899 46.3931 187.056 46.3694C186.284 46.3457 185.685 46.7191 185.685 47.5073C185.685 49.3445 190.001 48.2007 190.001 51.1758C190.001 52.3907 189.004 53.5583 187.187 53.5583Z" fill="#172C4F"/>
             </svg>
           </a>
-          <h1 class="heading">under construction</h1>
+          <h2 class="heading">under construction</h2>
           <p class="notation">We're making lots of improvements and will be back soon</p>
           <div class="timer">
             <span class="timer__time-section days" data-title="Days" data-collapse="DD">00</span>
@@ -64,18 +64,120 @@
             </span>
           </a>
         </section>
+        <section class="subscription">
+          <form action="" method="post" class="form">
+            <input type="email" required class="form__input" name="email" placeholder="Enter your Email and get notified" />
+            <button class="form__btn">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4.16666 10H15.8333" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M10 4.16667L15.8333 10L10 15.8333" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </button>
+          </form>
+          <a href="#events" class="subscription__link">
+            Other Events
+            <span>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 5V19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M19 12L12 19L5 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+          </a>
+        </section>
+        <section class="events" id="events">
+          <h2 class="heading">All events</h2>
+          <div class="accordion-container">
+            <div class="accordion__item active">
+              <div class="accordion__btn">
+                <span class="accordion__item-title">Hawaiian party</span>
+                <span class="accordion__item-number">01</span>
+              </div>
+              <div class="accordion__additional" data-num="01">
+                <span class="accordion__title_small">Hawaiian party</span>
+                <span class="accordion__date">13.02.2023</span>
+                <a href="https://www.google.com/" class="accordion__link" target="_blank">More information</a>
+              </div>
+            </div>
+            <div class="accordion__item">
+              <div class="accordion__btn">
+                <span class="accordion__item-title">Мafia party</span>
+                <span class="accordion__item-number">02</span>
+              </div>
+              <div class="accordion__additional" data-num="02">
+                <span class="accordion__title_small">Мafia party</span>
+                <span class="accordion__date">13.02.2023</span>
+                <a href="https://www.google.com/" class="accordion__link" target="_blank">More information</a>
+              </div>
+            </div>
+            <div class="accordion__item">
+              <div class="accordion__btn">
+                <span class="accordion__item-title">Party</span>
+                <span class="accordion__item-number">03</span>
+              </div>
+              <div class="accordion__additional" data-num="03">
+                <span class="accordion__title_small">Party</span>
+                <span class="accordion__date">13.02.2023</span>
+                <a href="https://www.google.com/" class="accordion__link" target="_blank">More information</a>
+              </div>
+            </div>
+            <div class="accordion__item">
+              <div class="accordion__btn">
+                <span class="accordion__item-title">Party on the beach</span>
+                <span class="accordion__item-number">04</span>
+              </div>
+              <div class="accordion__additional" data-num="04">
+                <span class="accordion__title_small">Party on the beach</span>
+                <span class="accordion__date">13.02.2023</span>
+                <a href="https://www.google.com/" class="accordion__link" target="_blank">More information</a>
+              </div>
+            </div>
+            <div class="accordion__item">
+              <div class="accordion__btn">
+                <span class="accordion__item-title">Home Security</span>
+                <span class="accordion__item-number">05</span>
+              </div>
+              <div class="accordion__additional" data-num="05">
+                <span class="accordion__title_small">Home Security</span>
+                <span class="accordion__date">13.02.2023</span>
+                <a href="https://www.google.com/" class="accordion__link" target="_blank">More information</a>
+              </div>
+            </div>
+            <div class="accordion__item">
+              <div class="accordion__btn">
+                <span class="accordion__item-title">Network Design & Implementation</span>
+                <span class="accordion__item-number">06</span>
+              </div>
+              <div class="accordion__additional" data-num="06">
+                <span class="accordion__title_small">Network Design & Implementation</span>
+                <span class="accordion__date">13.02.2023</span>
+                <a href="https://www.google.com/" class="accordion__link" target="_blank">More information</a>
+              </div>
+            </div>
+            <div class="accordion__item">
+              <div class="accordion__btn">
+                <span class="accordion__item-title">System Design & Engineering</span>
+                <span class="accordion__item-number">07</span>
+              </div>
+              <div class="accordion__additional" data-num="07">
+                <span class="accordion__title_small">System Design & Engineering</span>
+                <span class="accordion__date">13.02.2023</span>
+                <a href="https://www.google.com/" class="accordion__link" target="_blank">More information</a>
+              </div>
+            </div>
+            <div class="accordion__item">
+              <div class="accordion__btn">
+                <span class="accordion__item-title">Client Care Plans</span>
+                <span class="accordion__item-number">08</span>
+              </div>
+              <div class="accordion__additional" data-num="08">
+                <span class="accordion__title_small">Client Care Plans</span>
+                <span class="accordion__date">13.02.2023</span>
+                <a href="https://www.google.com/" class="accordion__link" target="_blank">More information</a>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
-      <footer class="footer">
-        <form action="" method="post" class="form">
-          <input type="email" required class="form__input" name="email" placeholder="Enter your Email and get notified" />
-          <button class="form__btn">
-            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4.16666 10H15.8333" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-              <path d="M10 4.16667L15.8333 10L10 15.8333" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-          </button>
-        </form>
-      </footer>
       <dialog class="pop-up">
         <a href="" class="pop-up__cross">
           <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
